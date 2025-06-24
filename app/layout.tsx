@@ -5,7 +5,6 @@ import type { Metadata, Viewport } from "next"
 import { zpix } from "./fonts"
 import "./globals.css"
 import { Providers } from "./providers"
-import { FloatMenu } from "@/components/float-menu"
 
 export const metadata: Metadata = {
   title: "100X",
@@ -99,7 +98,6 @@ export default function RootLayout({
             {children}
           </Providers>
           <Toaster />
-          <FloatMenu />
         </ThemeProvider>
       </body>
     </html>
