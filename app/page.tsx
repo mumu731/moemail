@@ -21,12 +21,9 @@ export default async function Home() {
               <div className="space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-wider">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-                    MoeMail
+                    100X
                   </span>
                 </h1>
-                <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 tracking-wide">
-                  萌萌哒临时邮箱服务
-                </p>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 sm:px-0">
