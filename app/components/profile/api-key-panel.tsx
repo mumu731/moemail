@@ -245,7 +245,7 @@ export function ApiKeyPanel() {
       {
         !canManageApiKey ? (
           <div className="text-center text-muted-foreground py-8">
-            <p>需要公爵或更高权限才能管理 API Key</p>
+            <p>需要高级会员或更高权限才能管理 API Key</p>
             <p className="mt-2">请联系网站管理员升级您的角色</p>
             {
               config?.adminContact && (
